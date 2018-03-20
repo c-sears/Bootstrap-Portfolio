@@ -113,14 +113,15 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    cursor: pointer;
 }
 
 .project-1 {background-image: url(https://picsum.photos/200/200?image=1);}
-.project-2 {background-image: url(https://picsum.photos/200/200?image=2);}
-.project-3 {background-image: url(https://picsum.photos/200/200?image=3);}
-.project-4 {background-image: url(https://picsum.photos/200/200?image=4);}
-.project-5 {background-image: url(https://picsum.photos/200/200?image=5);}
-.project-6 {background-image: url(https://picsum.photos/200/200?image=6);}
+.project-2 {background-image: url(https://picsum.photos/200/200?image=1024);}
+.project-3 {background-image: url(https://picsum.photos/200/200?image=103);}
+.project-4 {background-image: url(https://picsum.photos/200/200?image=154);}
+.project-5 {background-image: url(https://picsum.photos/200/200?image=95);}
+.project-6 {background-image: url(https://picsum.photos/200/200?image=146);}
 
 .project h4 {
     position: relative;
