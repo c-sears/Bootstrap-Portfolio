@@ -60,6 +60,7 @@ nav li:hover {
 .box {
     background-color: #ffffff;
     padding: 10px;
+    height: fit-content;
 }
 
 .about-header {
@@ -75,8 +76,7 @@ nav li:hover {
     line-height: 2;
     font-size: 1.3em;
     text-align: justify;
-    padding: 15px;
-    margin-left: 1px;
+    padding: 0 !important;
     text-indent: 15px;
 }
 
@@ -90,6 +90,10 @@ footer {
     text-align: center;
     margin-top: 15px;
     padding-top: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
     
 }
 
@@ -97,6 +101,10 @@ footer {
 
     .navbar-header button {
         margin: 20px;
+    }
+
+    .box {
+        margin: 10px auto;
     }
 
     .about-header {
@@ -107,6 +115,7 @@ footer {
         padding: 0;
         margin-top: 20px;
         margin-left: 0;
+        text-indent: 0;
     }
 
 }
